@@ -1,5 +1,5 @@
 * {
-    margin: 10px;
+    margin: 0;
     padding: 0;
 }
 body {
@@ -7,22 +7,27 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body p h1 {
-    font-weight: 500;
+.logo {
+    width: 30vw;
+    max-height: 10vh;
 }
 
-img {
-    height: 200px;
+.imagen {
+    max-height: 15em;
 }
 
 footer{
     width: auto;
     text-align: center;
-    background-color: dimgray;
     color: whitesmoke;
-    padding: 10px 0px;
+    padding: 2em 0;
 }
 
 table {
     justify-content: center;
+    padding: 2em 0;
+}
+
+table img {
+    height: 200px;
 }
